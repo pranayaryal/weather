@@ -4,6 +4,6 @@ $.ajax({
    success: function(data) {
       var $body = $(document.body);
       $body.append(data.city.list);
-      console.log(data.city.list);
+      console.log(data.city);
       }
  });
