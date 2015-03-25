@@ -3,7 +3,7 @@ $.ajax({
    dataType: "json",
    success: function(data) {
       
-       html += '<ul><li>'+data.city.name + "min temperature" + '</li></ul>';
+       html += '<ul><li>'+data.city.name'</li></ul>';
        html = '<h2>'+data.list[0].temp.night+'</h2>';
        $('#weather').html(html);
       console.log(data);
