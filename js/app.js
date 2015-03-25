@@ -3,8 +3,8 @@ $.ajax({
    dataType: "json",
    success: function(data) {
       var $body = $(document.body);
-      $body.append(data.list.temp);
-      console.log(data.list.temp);
+      $body.append(data.dt);
+      console.log(data.dt);
       console.log(data);
       }
  });
