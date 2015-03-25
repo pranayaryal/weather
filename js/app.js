@@ -3,7 +3,7 @@ $.ajax({
    dataType: "json",
    success: function(data) {
       var $body = $(document.body);
-      $body.append(data.city.name);
+      $body.append(data.city.temp);
       console.log(data);
       }
  });
