@@ -3,6 +3,6 @@ $.ajax({
    dataType: "json",
    success: function(data) {
       $(document.body).append(data);
-      console.log(data);
+      console.log(data.city.coord);
       }
  });
