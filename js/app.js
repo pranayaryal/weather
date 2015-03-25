@@ -6,6 +6,6 @@ $.ajax({
        html = '<h2>'+data.dt+'</h2>';
        /*##html += '<p>Minimum temperature: '+data.list[0].temp.night+'</p>';
        ##$('#weather').html(html);*/
-      console.log(data);
+      console.log(data.dt);
       }
  });
